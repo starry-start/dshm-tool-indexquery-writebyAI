@@ -1,0 +1,26 @@
+{
+  "name": "dshm-tool-indexquery",
+  "version": "0.1.0",
+  "private": true,
+  "description": "DSHM 端侧本地教材页级索引检索工具（index_query / index_page）：只读本地索引，不联网、不上传数据",
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "license": "MIT",
+  "author": "starry-start",
+  "engines": {
+    "node": ">=22.5"
+  },
+  "dsh": {
+    "kind": "plugin"
+  }
+}
